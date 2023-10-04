@@ -1,41 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LOGIN</title>
+    <title>REGISTER</title>
 </head>
 <body>
-<h3>취업 정보 계정 만들기</h3>
-<p>*필수 입력 항목</p>
-<p>기본 정보</p>
-<form>
-    <label>이 름* <input type="text" name="name" id="name" size="8"></label><br>
-    <label>이메일* <input type="email" name="email" id="email" size="15" placeholder="id@domain_name"></label><br>
-    <label>암 호* <input type="password" name="password" id="password" size="12"></label><br>
-    <label>암호 확인* <input type="password" name="pwd_check" id="pwd_check" size="12"></label><br>
-    <label>모바일 폰* <input type="tel" name="phone" id="phone" size="13" placeholder="010-0000-0000"></label><br>
-    <label>개인 홈페이지 <input type="url" name="home_page" id="home_page" size="30" placeholder="http://"></label><br>
-    <label>주소* <input type="text" name="address" id="address" size="30"></label><br>
-    <p>학력</p>
-    <label>학교명* <input type="text" name="university" id="university" size="12"></label><br>
-    <label>전공* <input type="text" name="major" id="major" size="12"></label><br>
-    <label>졸업 여부*
-        <select name="graduate" id="graduate">
-            <option value="0">---선택---</option>
-            <option value="1">졸업예정</option>
-            <option value="2">졸업</option>
-        </select>
-    </label><br>
-    <label>졸업(예정)일<input type="date" name="grd_date" id="grd_date"></label>
-    <p>업무 경력</p>
-    <label>근무업체명 <input type="text" name="company" id="company" size="20"></label><br>
-    <label>직위 <input type="text" name="position" id="position" size="10"></label><br>
-    <label>담당업무 <textarea name="comments" id="comments" cols="80" rows="10">이전 업체에서 담당한 업무를 기술하시오.</textarea></label><br>
-    <label>근무년수 <input type="number" min="0" max="10" step="0.5"></label>년<br>
-    <p>자기소개서</p>
-    <label>첨부 파일 <input type="file" name="file" id="file"></label><br>
-    <p><input type="submit" value="제출">
-        <input type="reset" value="재작성"></p>
-</form>
+<h3>회원 로그인</h3>
+<hr>
+<p><label>이메일 <input type="email" name="email" id="email" size="20" placeholder="id@domain_name"></label></p>
+<p><label>암호 <input type="password" name="password" id="password" size="18"></label></p>
+<p><input type="button" value="로그인"></p>
 </body>
 </html>
