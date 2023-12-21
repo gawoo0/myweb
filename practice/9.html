@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>텍스트 입력 폼</title>
+</head>
+<body>
+<h3>자기소개서</h3>
+<hr>
+
+<form name="resume" method="post">
+    <div id="txt_input">
+        <label for="student_name">이름</label>
+        <input type="text" id="student_name" name="name"><br>
+        <label>이메일<input type="text" id="email" name="email"></label><br>
+        <label>암호<input type="password" id="pwd">(수정용 암호)</label>
+    </div>
+    <div id="slt_input">
+        <p>보유 IT 기술:
+            <label><input type="checkbox" name="IT" value="p" checked>Python</label>
+            <label><input type="checkbox" name="IT" value="c" checked>C/C++</label>
+            <label><input type="checkbox" name="IT" value="front_web" checked>Front-End</label>
+        </p>
+        <p>성별:
+            <input type="radio" id="male" name="gender" value="m" checked>
+            <label for="male">남성</label>
+            <label><input type="radio" id="female" name="gender" value="f">여성</label>
+        </p>
+    </div>
+    <div id="comment">
+        <label>남기고 싶은 말: <br>
+        <textarea rows="10" cols="70"></textarea></label>
+    </div>
+    <p><label>피자:
+    <select name="dissert" id="food1">
+        <option value="0" selected>선택하시오</option>
+        <option value="1">coffee</option>
+        <option value="2">coffee</option>
+        <option value="3">coffee</option>
+    </select></label></p>
+</form>
+</body>
+</html>
